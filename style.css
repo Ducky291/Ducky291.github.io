@@ -1,0 +1,67 @@
+body {
+    background-color: #fdedc2;
+}
+
+h1 {
+    color: rgb(0, 0, 0)
+}
+
+h3 {
+    color: rgb(0, 0, 0)
+}
+
+h2 {
+    color: rgb(0, 0, 0)
+}
+
+body {
+    font-family: monospace;
+}
+
+Body {
+    font-size: larger;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+.main-title {
+    color: rgb(116, 18)
+}
+
+.main-title {
+    width: 50%;
+    height: 5%;
+    border-width: 8px;
+    border-color: rgb(253, 227, 81);
+    border-style: double;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 10px 4px rgb(250, 209, 120);
+    padding: 12px;
+    margin-left: 400px;
+
+}
+
+.Second-Title {
+    width: 50%;
+    height: 5%;
+    border-width: 8px;
+    border-color: rgb(253, 227, 81);
+    border-style: double;
+    border-radius: 12px;
+    text-align: center;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 0 6px 10px 4px rgb(250, 209, 120);
+    margin-left: 400px;
+}
+
+body {
+    margin-left: 250px;
+}
+
+footer {
+    font-family: monospace;
+}
