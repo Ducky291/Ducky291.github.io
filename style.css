@@ -40,7 +40,7 @@ h1 {
     text-align: center;
     box-shadow: 0 6px 10px 4px rgb(250, 209, 120);
     padding: 12px;
-    margin-left: 400px;
+    margin-left: 300px;
 
 }
 
@@ -55,7 +55,7 @@ h1 {
     padding: 12px;
     margin: 10px;
     box-shadow: 0 6px 10px 4px rgb(250, 209, 120);
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 body {
@@ -89,7 +89,7 @@ footer {
     padding: 12px;
     margin: 10px;
     box-shadow: 0 6px 10px 4px rgb(250, 209, 120);
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .Bio-text {
@@ -124,7 +124,7 @@ footer {
 
 
 .video-one {
-    margin-left: 450px;
+    margin-left: 260px;
 }
 
 .Main-p {
@@ -142,7 +142,7 @@ footer {
     padding: 12px;
     margin: 10px;
     box-shadow: 0 6px 10px 4px rgb(250, 209, 120);
-    margin-left: 390px;
+    margin-left: 290px;
 }
 
 .Userform {
@@ -151,13 +151,13 @@ footer {
     border-color: rgb(253, 227, 81);
     border-style: double;
     border-radius: 12px;
-    margin-left: 500px;
+    margin-left: 320px;
     width: 700px;
     padding: 25px
 }
 
 .submit {
-    margin-left: 300px;
+    margin-left: 250px;
 }
 
 .Second-Title:hover {
@@ -331,7 +331,7 @@ a {
     background-color: whitesmoke;
     font-family: monospace;
     font-style: oblique;
-    font-size: 25px;
+    font-size: 20px;
 
 
 }
@@ -346,7 +346,7 @@ a {
     text-align: center;
     box-shadow: 0 6px 10px 4px rgb(250, 209, 120);
     padding: 12px;
-    margin-left: 380px;
+    margin-left: 280px;
 }
 
 a:hover {
@@ -367,7 +367,7 @@ a:hover {
     font-family: monospace;
     font-style: oblique;
     font-size: 25px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .Contact-Info:hover {
@@ -390,7 +390,7 @@ a:hover {
     font-family: monospace;
     font-style: oblique;
     font-size: 25px;
-    margin-left: 400px;
+    margin-left: 300px;
     text-align: center;
 }
 
@@ -407,7 +407,7 @@ a:hover {
     background-color: whitesmoke;
     font-family: monospace;
     font-style: oblique;
-    margin-left: 400px;
+    margin-left: 300px;
     text-align: center;
 }
 
@@ -424,7 +424,7 @@ a:hover {
     background-color: whitesmoke;
     font-family: monospace;
     font-style: oblique;
-    margin-left: 400px;
+    margin-left: 300px;
     font-size: 20px;
 }
 
@@ -470,7 +470,7 @@ span {
 
 
 .color-button {
-    font-size: 20px;
+    font-size: 15px;
     padding: 6px;
     background: rgb(255, 255, 255);
     text-align: center;
@@ -487,8 +487,8 @@ span {
 
 /* Game Css */
 .gameBody {
-    width: 43%;
-    margin: 15% auto;
+    width: 51%;
+    margin: 10% auto;
 
 }
 
@@ -518,11 +518,28 @@ span {
     background-color: whitesmoke;
     font-family: monospace;
     font-style: oblique;
-    margin-left: 500px;
+    margin-left: 300px;
     text-align: center;
 }
 
 .Flop-title:hover {
     background-color: rgb(241, 181, 113);
     transition: 10s;
+}
+
+.High-score {
+    border-color: rgb(250, 209, 120);
+    border-width: 6px;
+    border-style: double;
+    border-radius: 10px;
+    padding: 3px;
+    width: 400px;
+    box-shadow: 0 4px 10px 2px rgb(250, 209, 120);
+    color: black;
+    background-color: whitesmoke;
+    font-family: monospace;
+    font-style: oblique;
+    margin-left: 500px;
+    text-align: center;
+    margin-top: -50%;
 }

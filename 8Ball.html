@@ -40,9 +40,11 @@
                 onClick="window.location.reload();">RESTART</button>
             <p>Use the ACCELERATE button to stay in the air</p>
             <p>How long can you stay alive?</p>
+
+
         </div>
     </section>
-
+    <div class="High-score">High Score = Ducky291 with 34,107!</div>
     <script>
 
         var myGamePiece;
@@ -52,7 +54,7 @@
         function startGame() {
             myGamePiece = new component(30, 30, "Purple", 10, 120);
             myGamePiece.gravity = 0.05;
-            myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+            myScore = new component("30px", "Consolas", "black", 236, 40, "text");
             myGameArea.start();
         }
 
