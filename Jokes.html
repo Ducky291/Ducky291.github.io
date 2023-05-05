@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="./index.html">Home<i class="fa fa-home"></i></a>
+        <a href="./contact.html">Contact<i class="fa fa-phone-square"></i></a>
+        <a href="./Jokes.html">Jokes<i class="fa fa-commenting"></i></a>
+        <a href="./Color.html">Colors<i class="fa fa-adjust"></i></a>
+        <a href="./8Ball.html">FlopGame<i class="fa fa-gamepad"></i></a>
+    </nav>
+
+
+
+
+    <section>
+        <h1 class="Joke-Title">Random Jokes Generator Page</h1>
+        <div class="Joke-tag" id="jokeDisplay">Hey This is a Joke</div>
+        <button class="joke-button" onclick="generateJoke()">New Joke</button>
+    </section>
+</body>
+
+<script>
+    var jokesArray = [
+        "Guess the number of programmers it takes to change a light bulb? Zero its a hardware problem",
+        "There are only 10 kinds of people in this world: those who know binary and those who don't.",
+        "Why do we tell actors to break a leg? Because every play has a cast.",
+        "What can you do if you cannot push your git changes? Use the force, Luke",
+        "What do you get when you cross a computer and a life guard? A screensaver!",
+        "Why don't keyboards sleep? Because they have two shifts.",
+    ]
+
+    function generateJoke() {
+        var RandomNumber = Math.random() * 5;
+
+        var randomInteger = Math.floor(RandomNumber);
+
+        var randomJoke = jokesArray[randomInteger]
+
+        document.getElementById("jokeDisplay").innerHTML = randomJoke
+    }
+
+</script>
+
+
+
+</html>
