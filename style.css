@@ -532,14 +532,14 @@ span {
     border-width: 6px;
     border-style: double;
     border-radius: 10px;
-    padding: 3px;
-    width: 400px;
+    padding: -10px;
+    width: 300px;
     box-shadow: 0 4px 10px 2px rgb(250, 209, 120);
     color: black;
     background-color: whitesmoke;
     font-family: monospace;
     font-style: oblique;
-    margin-left: 300px;
+    margin-left: -200px;
     text-align: center;
-    margin-top: -65%;
+    margin-top: -60%;
 }
