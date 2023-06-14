@@ -47,19 +47,19 @@
         </div>
     </section>
     <div class="High-score"> <h2>High Scores!</h2>
-        1st = Pandexgamer with 18,319! 
+        1st = Nickmyballz with 21,197!
          <br>                  
-        2nd = Nickmyballz with 18,107!
+        2nd = Pandexgamer with 20,319!
          <br>                    
-        3th = crazygerm2 with 8,376!
+        3th = crazygerm2 with 15,376!
         <br>
-        4th = denizthebich with 2,821
+        4th = denizthebich with 11,821
         <br>
-        5th = bluejays4ever with 2,109
+        5th = bluejays4ever with 8,109
         <br>
-        6th = Hopthefrog with 2,027
+        6th = Hopthefrog with 4,027
         <br>
-        7th = ?
+        7th = Antico5 with 1,603
         <br>
         8th = ?
         <br>
@@ -72,7 +72,7 @@
         var myScore;
 
         function startGame() {
-            myGamePiece = new component(25, 25, "Purple", 10, 120);
+            myGamePiece = new component(25, 25, "Yellow", 10, 120);
             myGamePiece.gravity = 0.07;
             myScore = new component("30px", "Consolas", "black", 236, 40, "text");
             myGameArea.start();
@@ -163,7 +163,7 @@
                 maxGap = 200;
                 gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
                 myObstacles.push(new component(10, height, "green", x, 0));
-                myObstacles.push(new component(10, x - height - gap, "green", x, height + gap));
+                myObstacles.push(new component(10, x - height - gap, "Brown", x, height + gap));
             }
             for (i = 0; i < myObstacles.length; i += 1) {
                 myObstacles[i].x += -1;
