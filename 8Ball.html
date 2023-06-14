@@ -8,11 +8,9 @@
     <style>
         canvas {
             border: 6px solid #000000;
-            background-color: #f1f1f1;
-        }
+            background-color: #bee6f8;
     </style>
 </head>
-
 
 
 
@@ -40,8 +38,9 @@
             <button class="game-buttons" onmousedown="accelerate(-0.2)"
                 onmouseup="accelerate(0.05)">ACCELERATE</button><button class="game-buttons"
                 onClick="window.location.reload();">RESTART</button>
-            <p>Use the ACCELERATE button to stay in the air</p>
+                <p>Use the ACCELERATE button to stay in the air</p>
             <p>How long can you stay alive?</p>
+            
 
 
         </div>
@@ -72,8 +71,8 @@
         var myScore;
 
         function startGame() {
-            myGamePiece = new component(25, 25, "Yellow", 10, 120);
-            myGamePiece.gravity = 0.07;
+            myGamePiece = new component (25, 25,"brown", 10, 120);
+            myGamePiece.gravity = 0.06;
             myScore = new component("30px", "Consolas", "black", 236, 40, "text");
             myGameArea.start();
         }
@@ -156,14 +155,14 @@
             myGameArea.frameNo += 1;
             if (myGameArea.frameNo == 1 || everyinterval(150)) {
                 x = myGameArea.canvas.width;
-                minHeight = 20;
+                minHeight = 100;
                 maxHeight = 200;
                 height = Math.floor(Math.random() * (maxHeight - minHeight + 1) + minHeight);
                 minGap = 50;
                 maxGap = 200;
                 gap = Math.floor(Math.random() * (maxGap - minGap + 1) + minGap);
-                myObstacles.push(new component(10, height, "green", x, 0));
-                myObstacles.push(new component(10, x - height - gap, "Brown", x, height + gap));
+                myObstacles.push(new component(13, height, "pink", x, 0));
+                myObstacles.push(new component(13, x - height - gap, "green", x, height + gap));
             }
             for (i = 0; i < myObstacles.length; i += 1) {
                 myObstacles[i].x += -1;
